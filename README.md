@@ -195,6 +195,7 @@ Ce projet est sous licence **MIT** — voir le fichier [LICENSE](LICENSE) pour p
 
 **gunout** — [@gunout](https://github.com/gunout)
 </div>
+
 ---
 
 <p align="center">
