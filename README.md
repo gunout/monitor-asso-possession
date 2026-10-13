@@ -1,4 +1,6 @@
-# 🇫🇷 Monitor Asso Possession
+<div align="center">
+
+## 🇫🇷 Monitor Asso Possession
 
 > Dashboard de suivi des subventions aux associations de **La Possession** (La Réunion)
 
@@ -12,6 +14,7 @@
 [![Associations](https://img.shields.io/badge/Associations-532-c8102e.svg?style=flat-square)]()
 [![Total](https://img.shields.io/badge/Total-4.5_M€-0033a0.svg?style=flat-square)]()
 [![Dernière MAJ](https://img.shields.io/badge/MAJ-Oct_2026-1a7f37.svg?style=flat-square)]()
+</div>
 
 ---
 
@@ -186,10 +189,12 @@ Ce projet est sous licence **MIT** — voir le fichier [LICENSE](LICENSE) pour p
 
 ---
 
+<div align="center">
+
 ## 👤 Auteur
 
 **gunout** — [@gunout](https://github.com/gunout)
-
+</div>
 ---
 
 <p align="center">
