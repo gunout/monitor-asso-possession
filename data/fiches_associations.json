@@ -1,0 +1,39 @@
+{
+  "omctl": {
+    "nom": "OMCTL",
+    "montant_2024": 140000,
+    "categorie": "Sport/Social",
+    "description": "Office Municipal des Sports et Loisirs"
+  },
+  "acces": {
+    "nom": "ACCES",
+    "montant_2024": 50000,
+    "categorie": "Social/Insertion",
+    "description": "Association d'accompagnement et d'insertion"
+  },
+  "academie_football": {
+    "nom": "Academie de football de la Possession",
+    "montant_2024": 38000,
+    "categorie": "Sport",
+    "description": "Formation football jeunes"
+  },
+  "handball": {
+    "nom": "Handball club Possession",
+    "montant_2024": 35000,
+    "categorie": "Sport",
+    "description": "Club de handball"
+  },
+  "cas": {
+    "nom": "Comité d'action sociale",
+    "montant_2024": 32000,
+    "categorie": "Social",
+    "description": "Actions sociales communales"
+  },
+  "pulsation_patrimoine": {
+    "nom": "Pulsation Patrimoine",
+    "montant_commune_2025": 6000,
+    "montant_tco_max": 30000,
+    "categorie": "Environnement/Emploi",
+    "description": "Chantiers emplois verts, lutte antivectorielle [citation:1]"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pulsation_patrimoine": {
+    "nom": "Pulsation Patrimoine",
+    "annee_creation": 2022,
+    "objet": "Valorisation patrimoines naturels, lutte antivectorielle, emplois verts",
+    "subvention_tco_max": 30000,
+    "subvention_commune_2025": 6000,
+    "demande_commune_supplementaire": 24000,
+    "demande_commune_initiale": 50000,
+    "demande_tco_initiale": 70000,
+    "missions": "Nettoyage sites naturels, ramassage détritus, lutte anti-moustiques",
+    "zones": "La Possession (Ravine à Malheur, 12 hectares)",
+    "personnel": "15 PEC",
+    "duree": "10 mois",
+    "source": "TCO — Bureau communautaire 06/10/2025 [citation:1]"
+  },
+  "subventions_culturelles_2026": [
+    {
+      "festival": "OPUS POCUS (Nakivava)",
+      "demande": 35000,
+      "commune_concernee": "La Possession"
+    },
+    {
+      "festival": "Titan Circle Vibes",
+      "demande": 8000,
+      "commune_concernee": "La Possession"
+    },
+    {
+      "festival": "Jazz Dann Port",
+      "demande": 100000,
+      "commune_concernee": "Le Port, Saint-Paul, La Possession",
+      "subvention_2025": 47000
+    }
+  ],
+  "tcos_2026": {
+    "nom": "T'COS (Comité d'œuvres sociales du TCO)",
+    "subvention_2026": 45000,
+    "demande": 53100,
+    "objet": "Actions sociales pour agents du TCO",
+    "source": "TCO — Bureau communautaire 01/06/2026 [citation:4]"
+  }
+}

@@ -1,0 +1,234 @@
+[2026-10-13 13:54:36] [INFO] 🔄 Démarrage vérification 2026-10-13 13:54:36
+[2026-10-13 13:54:38] [NEW] 🆕 Subventions 2024 (Région) : changement détecté
+[2026-10-13 13:54:38] [INFO]    → —
+[2026-10-13 13:54:38] [INFO]    → —
+[2026-10-13 13:54:38] [INFO]    → —
+[2026-10-13 13:54:38] [INFO]    → —
+[2026-10-13 13:54:38] [INFO]    → —
+[2026-10-13 13:54:40] [NEW] 🆕 Délibérations La Possession : changement détecté
+[2026-10-13 13:54:40] [INFO]    → deliberation-de-la-ville-de-la-possession-06-juin-2026
+[2026-10-13 13:54:40] [INFO]    → deliberation-de-la-ville-de-la-possession-18-juillet-2026
+[2026-10-13 13:54:40] [INFO]    → deliberation-de-la-ville-de-la-possession-25-avril-2026
+[2026-10-13 13:54:40] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2024
+[2026-10-13 13:54:40] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2025
+[2026-10-13 13:54:46] [NEW] 🆕 Catalogue Région (62 datasets) : changement détecté
+[2026-10-13 13:54:46] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 13:54:46] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 13:54:46] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 13:54:46] [INFO]    → budget-primitif-2022
+[2026-10-13 13:54:46] [INFO]    → budget-primitif-2023
+[2026-10-13 13:54:48] [NEW] 🆕 Budgets La Possession : changement détecté
+[2026-10-13 13:54:48] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 13:54:48] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 13:54:48] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 13:54:48] [INFO]    → budget-primitif-2022
+[2026-10-13 13:54:48] [INFO]    → budget-primitif-2023
+[2026-10-13 13:54:49] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 13:54:50] [NEW] 🆕 Dataset subventions data.gouv.fr : changement détecté
+[2026-10-13 13:54:50] [INFO]    → —
+[2026-10-13 13:54:50] [INFO]    → —
+[2026-10-13 13:54:50] [INFO]    → —
+[2026-10-13 13:54:50] [INFO]    → —
+[2026-10-13 13:54:52] [NEW] 🆕 Organisation data.gouv.fr : changement détecté
+[2026-10-13 13:54:52] [INFO]    → Décision modificative 2022 de la Ville de la Possession
+[2026-10-13 13:54:52] [INFO]    → Budget primitif 2022 de La Possession
+[2026-10-13 13:54:52] [INFO]    → Budget supplémentaire 2022 de La Possession
+[2026-10-13 13:54:52] [INFO]    → Budget primitif 2023 de La Possession
+[2026-10-13 13:54:52] [INFO]    → Base Adresse Locale de La Possession
+[2026-10-13 13:54:52] [INFO] 📤 Export CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135452.csv
+[2026-10-13 13:54:52] [INFO] 📤 Export CSV délib : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135452.csv
+[2026-10-13 13:54:52] [INFO] 📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135452.json
+[2026-10-13 13:54:52] [INFO] ✔️ Vérification terminée en 16s
+[2026-10-13 13:54:52] [INFO] 🚀 Daemon démarré (intervalle : 3600s)
+[2026-10-13 13:54:52] [INFO] 🔄 Démarrage vérification 2026-10-13 13:54:52
+[2026-10-13 13:54:53] [NEW] 🆕 Subventions 2024 (Région) : changement détecté
+[2026-10-13 13:54:55] [NEW] 🆕 Délibérations La Possession : changement détecté
+[2026-10-13 13:55:01] [NEW] 🆕 Catalogue Région (62 datasets) : changement détecté
+[2026-10-13 13:55:03] [NEW] 🆕 Budgets La Possession : changement détecté
+[2026-10-13 13:55:04] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 13:55:05] [NEW] 🆕 Dataset subventions data.gouv.fr : changement détecté
+[2026-10-13 13:55:07] [NEW] 🆕 Organisation data.gouv.fr : changement détecté
+[2026-10-13 13:55:07] [INFO] 📤 Export CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135507.csv
+[2026-10-13 13:55:07] [INFO] 📤 Export CSV délib : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135507.csv
+[2026-10-13 13:55:07] [INFO] 📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135507.json
+[2026-10-13 13:55:07] [INFO] ✔️ Vérification terminée en 15s
+[2026-10-13 13:55:08] [INFO] 💤 Prochaine vérification dans 3600s
+[2026-10-13 13:58:21] [INFO] 🔄 Démarrage vérification 2026-10-13 13:58:21
+[2026-10-13 13:58:27] [NEW] 🆕 Subventions 2024 (Région) : changement détecté
+[2026-10-13 13:58:27] [INFO]    → ACCES
+[2026-10-13 13:58:27] [INFO]    → ADUNA OI
+[2026-10-13 13:58:28] [INFO]    → AFC Ste Thérése
+[2026-10-13 13:58:28] [INFO]    → APEJJ
+[2026-10-13 13:58:28] [INFO]    → ARAJUFA
+[2026-10-13 13:58:28] [INFO] 🏆 Top 10 subventions 2024 :
+[2026-10-13 13:58:28] [INFO] → OMCTL : 140000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → ACCES : 50000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Academie de football de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Association football club Halte là : 38000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Association sportive et culturelle de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Handball club Possession : 35000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Comité d'action sociale : 32000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → An gren kouler : 30000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Picks basket : 23000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] → Gymnastique club Possession : 23000.0 € (subvention)
+[2026-10-13 13:58:28] [INFO] 💰 Total : 809950 € répartis sur 100 associations
+[2026-10-13 13:58:30] [NEW] 🆕 Délibérations La Possession : changement détecté
+[2026-10-13 13:58:30] [INFO]    → deliberation-de-la-ville-de-la-possession-06-juin-2026
+[2026-10-13 13:58:30] [INFO]    → deliberation-de-la-ville-de-la-possession-18-juillet-2026
+[2026-10-13 13:58:30] [INFO]    → deliberation-de-la-ville-de-la-possession-25-avril-2026
+[2026-10-13 13:58:30] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2024
+[2026-10-13 13:58:30] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2025
+[2026-10-13 13:58:37] [NEW] 🆕 Catalogue Région : changement détecté
+[2026-10-13 13:58:37] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 13:58:37] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 13:58:37] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 13:58:37] [INFO]    → budget-primitif-2022
+[2026-10-13 13:58:37] [INFO]    → budget-primitif-2023
+[2026-10-13 13:58:38] [NEW] 🆕 Budgets La Possession : changement détecté
+[2026-10-13 13:58:38] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 13:58:38] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 13:58:38] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 13:58:38] [INFO]    → budget-primitif-2022
+[2026-10-13 13:58:38] [INFO]    → budget-primitif-2023
+[2026-10-13 13:58:39] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 13:58:40] [NEW] 🆕 Dataset data.gouv.fr : changement détecté
+[2026-10-13 13:58:40] [INFO]    → —
+[2026-10-13 13:58:40] [INFO]    → —
+[2026-10-13 13:58:40] [INFO]    → —
+[2026-10-13 13:58:40] [INFO]    → —
+[2026-10-13 13:58:42] [NEW] 🆕 Organisation data.gouv.fr : changement détecté
+[2026-10-13 13:58:42] [INFO]    → Décision modificative 2022 de la Ville de la Possession
+[2026-10-13 13:58:42] [INFO]    → Budget primitif 2022 de La Possession
+[2026-10-13 13:58:42] [INFO]    → Budget supplémentaire 2022 de La Possession
+[2026-10-13 13:58:42] [INFO]    → Budget primitif 2023 de La Possession
+[2026-10-13 13:58:42] [INFO]    → Base Adresse Locale de La Possession
+[2026-10-13 13:58:42] [INFO] 📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135842.csv
+[2026-10-13 13:58:42] [INFO] 📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135842.csv
+[2026-10-13 13:58:42] [INFO] 📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135842.json
+[2026-10-13 13:58:42] [INFO] ✔️ Vérification terminée en 21s
+[2026-10-13 13:59:23] [INFO] 🏆 Top 20 subventions 2024 :
+[2026-10-13 13:59:23] [INFO] → OMCTL : 140000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → ACCES : 50000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Academie de football de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Association football club Halte là : 38000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Association sportive et culturelle de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Handball club Possession : 35000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Comité d'action sociale : 32000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → An gren kouler : 30000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Picks basket : 23000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Gymnastique club Possession : 23000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Club d'athletisme de la Possession : 20000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Association Ariste Bolon : 20000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Tempo danse : 20000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Club des nageurs de la Possession : 15000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Academie pour l'égalité de chances : 15000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Club aquatique Possession : 15000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Club pongiste Possessionnais : 14000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Tic tac family : 14000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → USEP departementale : 12000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] → Athetic club Possession : 10000.0 € (subvention)
+[2026-10-13 13:59:23] [INFO] 💰 Total : 809950 € répartis sur 100 associations
+[2026-10-13 13:59:24] [INFO] 🔄 Démarrage vérification 2026-10-13 13:59:24
+[2026-10-13 13:59:25] [NEW] 🆕 Subventions 2024 (Région) : changement détecté
+[2026-10-13 13:59:25] [INFO] 🏆 Top 10 subventions 2024 :
+[2026-10-13 13:59:25] [INFO] → OMCTL : 140000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → ACCES : 50000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Academie de football de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Association football club Halte là : 38000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Association sportive et culturelle de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Handball club Possession : 35000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Comité d'action sociale : 32000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → An gren kouler : 30000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Picks basket : 23000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] → Gymnastique club Possession : 23000.0 € (subvention)
+[2026-10-13 13:59:25] [INFO] 💰 Total : 809950 € répartis sur 100 associations
+[2026-10-13 13:59:27] [NEW] 🆕 Délibérations La Possession : changement détecté
+[2026-10-13 13:59:32] [NEW] 🆕 Catalogue Région : changement détecté
+[2026-10-13 13:59:33] [NEW] 🆕 Budgets La Possession : changement détecté
+[2026-10-13 13:59:34] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 13:59:35] [NEW] 🆕 Dataset data.gouv.fr : changement détecté
+[2026-10-13 13:59:37] [NEW] 🆕 Organisation data.gouv.fr : changement détecté
+[2026-10-13 13:59:37] [INFO] 📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135937.csv
+[2026-10-13 13:59:37] [INFO] 📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135937.csv
+[2026-10-13 13:59:37] [INFO] 📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135937.json
+[2026-10-13 13:59:37] [INFO] ✔️ Vérification terminée en 13s
+[2026-10-13 13:59:37] [INFO] 🚀 Daemon démarré (intervalle : 3600s)
+[2026-10-13 13:59:37] [INFO] 🔄 Démarrage vérification 2026-10-13 13:59:37
+[2026-10-13 13:59:38] [NEW] 🆕 Subventions 2024 (Région) : changement détecté
+[2026-10-13 13:59:38] [INFO] 🏆 Top 10 subventions 2024 :
+[2026-10-13 13:59:38] [INFO] → OMCTL : 140000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → ACCES : 50000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Academie de football de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Association football club Halte là : 38000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Association sportive et culturelle de la Possession : 38000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Handball club Possession : 35000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Comité d'action sociale : 32000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → An gren kouler : 30000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Picks basket : 23000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] → Gymnastique club Possession : 23000.0 € (subvention)
+[2026-10-13 13:59:38] [INFO] 💰 Total : 809950 € répartis sur 100 associations
+[2026-10-13 13:59:40] [NEW] 🆕 Délibérations La Possession : changement détecté
+[2026-10-13 13:59:46] [NEW] 🆕 Catalogue Région : changement détecté
+[2026-10-13 13:59:47] [NEW] 🆕 Budgets La Possession : changement détecté
+[2026-10-13 13:59:48] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 13:59:49] [NEW] 🆕 Dataset data.gouv.fr : changement détecté
+[2026-10-13 13:59:51] [NEW] 🆕 Organisation data.gouv.fr : changement détecté
+[2026-10-13 13:59:51] [INFO] 📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135951.csv
+[2026-10-13 13:59:51] [INFO] 📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135951.csv
+[2026-10-13 13:59:51] [INFO] 📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135951.json
+[2026-10-13 13:59:51] [INFO] ✔️ Vérification terminée en 14s
+[2026-10-13 13:59:51] [INFO] 💤 Prochaine vérification dans 3600s
+[2026-10-13 14:02:20] [INFO] 🔄 Démarrage 2026-10-13 14:02:20
+[2026-10-13 14:02:22] [NEW] 🆕 Subventions 2024 : changement détecté
+[2026-10-13 14:02:22] [INFO]    → ACCES
+[2026-10-13 14:02:22] [INFO]    → ADUNA OI
+[2026-10-13 14:02:22] [INFO]    → AFC Ste Thérése
+[2026-10-13 14:02:22] [INFO]    → APEJJ
+[2026-10-13 14:02:22] [INFO]    → ARAJUFA
+[2026-10-13 14:02:22] [INFO] 🏆 Top 10 subventions 2024 :
+[2026-10-13 14:02:22] [INFO] → OMCTL : 140000.0 €
+[2026-10-13 14:02:22] [INFO] → ACCES : 50000.0 €
+[2026-10-13 14:02:22] [INFO] → Academie de football de la Possession : 38000.0 €
+[2026-10-13 14:02:22] [INFO] → Association football club Halte là : 38000.0 €
+[2026-10-13 14:02:22] [INFO] → Association sportive et culturelle de la Possession : 38000.0 €
+[2026-10-13 14:02:22] [INFO] → Handball club Possession : 35000.0 €
+[2026-10-13 14:02:22] [INFO] → Comité d'action sociale : 32000.0 €
+[2026-10-13 14:02:22] [INFO] → An gren kouler : 30000.0 €
+[2026-10-13 14:02:22] [INFO] → Picks basket : 23000.0 €
+[2026-10-13 14:02:22] [INFO] → Gymnastique club Possession : 23000.0 €
+[2026-10-13 14:02:22] [INFO] 💰 Total : 841750 € répartis sur 106 associations
+[2026-10-13 14:02:24] [NEW] 🆕 Délibérations : changement détecté
+[2026-10-13 14:02:24] [INFO]    → deliberation-de-la-ville-de-la-possession-06-juin-2026
+[2026-10-13 14:02:24] [INFO]    → deliberation-de-la-ville-de-la-possession-18-juillet-2026
+[2026-10-13 14:02:24] [INFO]    → deliberation-de-la-ville-de-la-possession-25-avril-2026
+[2026-10-13 14:02:24] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2024
+[2026-10-13 14:02:24] [INFO]    → deliberation-de-la-ville-de-la-possession-mai-2025
+[2026-10-13 14:02:30] [NEW] 🆕 Catalogue Région : changement détecté
+[2026-10-13 14:02:30] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 14:02:30] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 14:02:30] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 14:02:30] [INFO]    → budget-primitif-2022
+[2026-10-13 14:02:30] [INFO]    → budget-primitif-2023
+[2026-10-13 14:02:31] [NEW] 🆕 Budgets : changement détecté
+[2026-10-13 14:02:31] [INFO]    → budget-primitif-2024-de-la-ville-de-la-possession
+[2026-10-13 14:02:31] [INFO]    → budget-primitif-2025-de-la-ville-de-la-possession
+[2026-10-13 14:02:32] [INFO]    → budget-primitif-2026-de-la-possession
+[2026-10-13 14:02:32] [INFO]    → budget-primitif-2022
+[2026-10-13 14:02:32] [INFO]    → budget-primitif-2023
+[2026-10-13 14:02:32] [INFO] ✅ Marchés publics : inchangé
+[2026-10-13 14:02:33] [NEW] 🆕 data.gouv dataset : changement détecté
+[2026-10-13 14:02:34] [INFO]    → —
+[2026-10-13 14:02:34] [INFO]    → —
+[2026-10-13 14:02:34] [INFO]    → —
+[2026-10-13 14:02:34] [INFO]    → —
+[2026-10-13 14:02:35] [NEW] 🆕 data.gouv org : changement détecté
+[2026-10-13 14:02:36] [INFO]    → Décision modificative 2022 de la Ville de la Possession
+[2026-10-13 14:02:36] [INFO]    → Budget primitif 2022 de La Possession
+[2026-10-13 14:02:36] [INFO]    → Budget supplémentaire 2022 de La Possession
+[2026-10-13 14:02:36] [INFO]    → Budget primitif 2023 de La Possession
+[2026-10-13 14:02:36] [INFO]    → Base Adresse Locale de La Possession
+[2026-10-13 14:02:36] [INFO] 📤 CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_140236.csv
+[2026-10-13 14:02:36] [INFO] 📤 JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_140236.json
+[2026-10-13 14:02:36] [INFO] 📄 Génération du rapport HTML…
+[2026-10-13 14:02:36] [INFO] ✅ Rapport : /home/gleaphe/Desktop/Monitor Possession/rapport.html
+[2026-10-13 14:02:36] [INFO] ✔️ Terminé en 16s

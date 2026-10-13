@@ -1,0 +1,16 @@
+{
+  "2025": {
+    "total": 942100, "nb_associations": 99, "nb_demandes": 118,
+    "source": "Délibération 15-avr-25 (03/04/2025)",
+    "repartition": {
+      "Sports & Loisirs": 33, "Culture et Patrimoine": 18,
+      "Vie de quartiers": 7, "Environnement/Insertion": 5,
+      "Vie Scolaire": 7, "Vie Sociale": 29
+    }
+  },
+  "2026": {
+    "total": 1017600, "nb_associations": 111, "nb_demandes": 130,
+    "evolution_pct": 13.0, "source": "Conseil municipal 18/02/2026",
+    "detail_disponible": false
+  }
+}

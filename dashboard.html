@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>🇫🇷 Monitor La Possession — Subventions</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg-0:#f8f9fb;--bg-1:#ffffff;--bg-2:#eef2f7;--bg-3:#dde5ee;
+  --border:#c8d4e0;--border-hi:#8fa8c0;
+  --text-0:#0a1f44;--text-1:#3d5a80;--text-2:#7a8fa6;
+  --bleu:#0033a0;--bleu-clair:#0055cc;--bleu-pale:#e6edf7;
+  --rouge:#c8102e;--rouge-clair:#e63946;--rouge-pale:#fce8eb;
+  --blanc:#ffffff;--or:#d4af37;--vert:#1a7f37;
+  --font-mono:'JetBrains Mono',monospace;
+  --font-sans:'Inter',sans-serif;
+}
+html{height:100%}
+body{font-family:var(--font-sans);background:var(--bg-0);color:var(--text-0);
+  font-size:13px;line-height:1.5;min-height:100%;overflow-x:hidden}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-track{background:var(--bg-2)}
+::-webkit-scrollbar-thumb{background:var(--bleu);border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:var(--rouge)}
+
+.topbar{min-height:58px;
+  background:linear-gradient(90deg,var(--bleu) 0%,var(--bleu-clair) 50%,var(--bleu) 100%);
+  color:var(--blanc);border-bottom:3px solid var(--rouge);
+  display:flex;align-items:center;padding:8px 18px;gap:14px;
+  position:sticky;top:0;z-index:100;flex-wrap:wrap;
+  box-shadow:0 3px 12px rgba(0,51,160,0.25)}
+.brand{font-family:var(--font-mono);font-size:14px;font-weight:800;
+  letter-spacing:1.5px;display:flex;align-items:center;gap:10px;white-space:nowrap;color:var(--blanc)}
+.brand .flag{display:inline-flex;width:24px;height:16px;border-radius:2px;overflow:hidden;
+  box-shadow:0 0 8px rgba(255,255,255,0.4)}
+.brand .flag span{flex:1}
+.brand .flag .b{background:#0033a0}
+.brand .flag .w{background:#ffffff}
+.brand .flag .r{background:#c8102e}
+.brand .sub{color:rgba(255,255,255,0.75);font-weight:400;font-size:11px}
+
+.topbar-right{margin-left:auto;display:flex;gap:16px;
+  font-family:var(--font-mono);font-size:11px;align-items:center;flex-wrap:wrap}
+.topbar-stat{display:flex;gap:5px;color:rgba(255,255,255,0.85);align-items:center;white-space:nowrap}
+.topbar-stat .val{color:var(--blanc);font-weight:800}
+.topbar-stat .val.rouge{color:#ffccd2}
+.topbar-stat .val.or{color:#ffe17a}
+
+.tabs{display:flex;gap:4px;order:3;width:100%;overflow-x:auto;padding-top:6px;
+  scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);
+  color:rgba(255,255,255,0.85);font-family:var(--font-mono);font-size:11px;
+  font-weight:700;padding:7px 14px;border-radius:4px;cursor:pointer;
+  white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.tab:hover{background:rgba(255,255,255,0.2);color:var(--blanc)}
+.tab.active{background:var(--blanc);color:var(--bleu)}
+
+.app{display:grid;grid-template-columns:280px 1fr 320px;
+  height:calc(100vh - 58px);overflow:hidden}
+
+.sidebar{background:var(--bg-1);border-right:2px solid var(--bleu);
+  display:flex;flex-direction:column;overflow:hidden}
+.sb-head{padding:16px;border-bottom:2px solid var(--rouge);
+  background:linear-gradient(135deg,var(--bleu-pale),var(--bg-1))}
+.sb-title{font-family:var(--font-mono);font-size:11px;font-weight:800;
+  color:var(--bleu);letter-spacing:1.2px;text-transform:uppercase;
+  display:flex;align-items:center;gap:8px}
+.sb-title::before{content:'';width:4px;height:14px;
+  background:linear-gradient(180deg,var(--bleu),var(--rouge))}
+.sb-count{font-family:var(--font-mono);font-size:11px;color:var(--text-2);margin-top:6px}
+.sb-list{flex:1;overflow-y:auto;padding:10px}
+.sb-item{background:var(--bg-1);border:1px solid var(--border);
+  border-left:4px solid var(--bleu);border-radius:6px;padding:11px 13px;
+  margin-bottom:6px;cursor:pointer;transition:all 0.15s}
+.sb-item:hover{border-color:var(--bleu);background:var(--bleu-pale);transform:translateX(3px)}
+.sb-item.active{background:linear-gradient(90deg,var(--bleu-pale),var(--bg-1));
+  border-left-color:var(--rouge);border-color:var(--bleu)}
+.sb-item-h{display:flex;align-items:center;gap:8px}
+.sb-item-icon{font-size:16px}
+.sb-item-name{font-family:var(--font-mono);font-size:12px;font-weight:700;color:var(--text-0);flex:1}
+
+.center{background:var(--bg-0);display:flex;flex-direction:column;overflow:hidden}
+.work-bar{padding:14px 18px;background:var(--bg-1);
+  border-bottom:1px solid var(--border);display:flex;
+  justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.work-title{font-family:var(--font-mono);font-size:15px;font-weight:800;
+  color:var(--bleu);display:flex;align-items:center;gap:8px}
+.work-sub{font-family:var(--font-mono);font-size:10.5px;color:var(--text-2);margin-top:4px}
+.wb-btn{font-family:var(--font-mono);font-size:11px;font-weight:700;
+  padding:8px 14px;border-radius:5px;cursor:pointer;border:none}
+.wb-btn.bleu{background:var(--bleu);color:var(--blanc)}
+.wb-btn.bleu:hover{background:var(--rouge)}
+
+#dashboard{flex:1;overflow-y:auto;padding:18px;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));
+  gap:16px;align-content:start}
+
+.card{background:var(--bg-1);border:1px solid var(--border);
+  border-radius:8px;padding:18px;display:flex;flex-direction:column;
+  box-shadow:0 2px 8px rgba(0,51,160,0.06)}
+.card.full{grid-column:1/-1}
+.card h3{font-family:var(--font-mono);font-size:11.5px;font-weight:800;
+  color:var(--bleu);letter-spacing:0.6px;text-transform:uppercase;
+  margin-bottom:14px;display:flex;justify-content:space-between;
+  align-items:center;padding-bottom:10px;
+  border-bottom:2px solid var(--rouge);gap:8px}
+.card h3 .source{font-size:9.5px;color:var(--text-2);font-weight:500;
+  text-transform:none;letter-spacing:0;white-space:nowrap}
+.kpi{font-family:var(--font-mono);font-size:36px;font-weight:800;
+  color:var(--bleu);line-height:1;letter-spacing:-1.5px}
+
+.kpis{grid-column:1/-1;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.kpi-card{background:var(--bg-1);border:1px solid var(--border);
+  border-radius:8px;padding:16px;position:relative;overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,51,160,0.06)}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;
+  width:100%;height:4px;background:var(--bleu)}
+.kpi-card.rouge::before{background:var(--rouge)}
+.kpi-card .v{font-family:var(--font-mono);font-size:26px;font-weight:800;
+  color:var(--bleu);line-height:1;margin-bottom:6px}
+.kpi-card.rouge .v{color:var(--rouge)}
+.kpi-card .l{font-family:var(--font-mono);font-size:10.5px;color:var(--text-1);
+  text-transform:uppercase;letter-spacing:0.4px}
+.kpi-card .evo{font-family:var(--font-mono);font-size:10px;margin-top:6px}
+.kpi-card .evo.up{color:var(--vert)}
+.kpi-card .evo.down{color:var(--rouge)}
+
+/* Fix canvas qui grandissent a l'infini */
+.card:has(canvas) {
+  height: 420px;
+  min-height: 420px;
+  max-height: 420px;
+}
+.card canvas {
+  max-height: 320px !important;
+  height: 320px !important;
+  width: 100% !important;
+}
+.card:has(table), .card:has(.table-wrap) {
+  height: 600px;
+  min-height: 600px;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.table-wrap{height:520px;max-height:520px;overflow-y:auto;overflow-x:auto;
+  border:1px solid var(--border);border-radius:6px;background:var(--bg-1)}
+.table-wrap::-webkit-scrollbar{width:10px;height:10px}
+.table-wrap::-webkit-scrollbar-track{background:var(--bg-2)}
+.table-wrap::-webkit-scrollbar-thumb{background:var(--bleu);border-radius:5px;
+  border:2px solid var(--bg-1)}
+table.data-table{width:100%;border-collapse:collapse;font-size:12px;
+  font-family:var(--font-mono)}
+table.data-table th{text-align:left;padding:11px 13px;
+  background:var(--bleu);color:var(--blanc);font-weight:800;font-size:10.5px;
+  text-transform:uppercase;letter-spacing:0.5px;
+  position:sticky;top:0;z-index:5}
+table.data-table td{padding:10px 13px;border-bottom:1px solid var(--border);color:var(--text-0)}
+table.data-table tr:nth-child(even) td{background:var(--bg-2)}
+table.data-table tr:hover td{background:var(--bleu-pale);color:var(--bleu)}
+
+.alert-item{display:flex;align-items:center;gap:12px;padding:12px 14px;
+  margin-bottom:8px;border-radius:6px;background:var(--rouge-pale);
+  border-left:4px solid var(--rouge);font-family:var(--font-mono);font-size:11.5px}
+.alert-item.warning{background:#fff8e6;border-left-color:var(--or)}
+.alert-item.info{background:var(--bleu-pale);border-left-color:var(--bleu)}
+.alert-item .ico{font-size:18px}
+.alert-item .txt{flex:1}
+.alert-item .title{font-weight:800;color:var(--text-0)}
+.alert-item .detail{font-size:10.5px;color:var(--text-1);margin-top:3px}
+
+.loader{grid-column:1/-1;text-align:center;padding:60px 20px;
+  color:var(--text-1);font-family:var(--font-mono);font-size:12px}
+.loader .spin{width:40px;height:40px;border:3px solid var(--bg-2);
+  border-top-color:var(--bleu);border-bottom-color:var(--rouge);
+  border-radius:50%;animation:sp 0.9s linear infinite;margin:0 auto 16px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+.right{background:var(--bg-1);border-left:2px solid var(--rouge);
+  display:flex;flex-direction:column;overflow:hidden}
+.rs-head{padding:14px 16px;background:linear-gradient(135deg,var(--rouge),var(--rouge-clair));
+  color:var(--blanc);font-family:var(--font-mono);font-size:11px;
+  font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  display:flex;align-items:center;gap:8px}
+.rs-head::before{content:'◆';font-size:14px}
+.rs-body{flex:1;overflow-y:auto;padding:14px}
+.intel-panel{background:var(--bg-1);border:1px solid var(--border);
+  border-radius:6px;margin-bottom:12px;overflow:hidden;
+  box-shadow:0 2px 6px rgba(0,51,160,0.06)}
+.intel-head{padding:10px 14px;background:var(--bleu);color:var(--blanc);
+  font-family:var(--font-mono);font-size:10.5px;font-weight:800;
+  letter-spacing:0.8px;text-transform:uppercase}
+.intel-body{padding:12px}
+.intel-row{display:flex;justify-content:space-between;align-items:center;
+  padding:7px 0;border-bottom:1px solid var(--bg-2);
+  font-family:var(--font-mono);font-size:11.5px;gap:8px}
+.intel-row:last-child{border-bottom:none}
+.intel-row .k{color:var(--text-1);flex:1}
+.intel-row .v{color:var(--text-0);font-weight:800}
+.intel-row .v.bleu{color:var(--bleu)}
+.intel-row .v.rouge{color:var(--rouge)}
+.intel-row .v.vert{color:var(--vert)}
+
+@media(max-width:1200px){.app{grid-template-columns:230px 1fr 280px}}
+@media(max-width:900px){
+  .app{display:flex;flex-direction:column;height:auto}
+  .sidebar,.right{width:100%;border:none;border-bottom:2px solid var(--bleu)}
+  .right{border-top:2px solid var(--rouge)}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">
+    <span class="flag"><span class="b"></span><span class="w"></span><span class="r"></span></span>
+    LA POSSESSION MONITOR
+    <span class="sub">/ Subventions associations</span>
+  </div>
+  <div class="tabs">
+    <button class="tab active" data-tab="overview">📊 Vue d'ensemble</button>
+    <button class="tab" data-tab="evolution">📈 Évolution</button>
+    <button class="tab" data-tab="repartition">🥧 Répartition 2025</button>
+    <button class="tab" data-tab="top">🏆 Top associations</button>
+    <button class="tab" data-tab="tco">🏛️ Subventions TCO</button>
+    <button class="tab" data-tab="fiches">📋 Fiches associations</button>
+    <button class="tab" data-tab="alertes">🚨 Alertes</button>
+  </div>
+  <div class="topbar-right">
+    <div class="topbar-stat"><span>ANNÉES</span><span class="val">5</span></div>
+    <div class="topbar-stat"><span>ASSOS</span><span class="val or">532</span></div>
+    <div class="topbar-stat"><span>TOTAL</span><span class="val rouge">4,5 M€</span></div>
+    <div class="topbar-stat"><span>⏱</span><span class="val" id="tbUpdate">—</span></div>
+  </div>
+</div>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sb-head">
+      <div class="sb-title">◆ MODULES</div>
+      <div class="sb-count" id="sbCount">7 modules · 5 années</div>
+    </div>
+    <div class="sb-list" id="sbList"></div>
+  </aside>
+
+  <main class="center">
+    <div class="work-bar">
+      <div>
+        <div class="work-title"><span id="activeIcon">📊</span><span id="activeName">Vue d'ensemble</span></div>
+        <div class="work-sub" id="activeSub">5 années · 532 associations</div>
+      </div>
+      <div>
+        <button class="wb-btn bleu" id="refreshBtn">🔄 Actualiser</button>
+      </div>
+    </div>
+    <main id="dashboard">
+      <div class="loader"><div class="spin"></div>Chargement du dashboard…</div>
+    </main>
+  </main>
+
+  <aside class="right">
+    <div class="rs-head">◆ INTELLIGENCE</div>
+    <div class="rs-body">
+      <div class="intel-panel">
+        <div class="intel-head">📊 MODULE ACTIF</div>
+        <div class="intel-body">
+          <div class="intel-row"><span class="k">Module</span><span class="v bleu" id="ivName">—</span></div>
+          <div class="intel-row"><span class="k">Statut</span><span class="v vert">● LIVE</span></div>
+        </div>
+      </div>
+      <div class="intel-panel">
+        <div class="intel-head">💰 SYNTHÈSE</div>
+        <div class="intel-body" id="rsSynth"></div>
+      </div>
+      <div class="intel-panel">
+        <div class="intel-head">⚙️ SYSTÈME</div>
+        <div class="intel-body">
+          <div class="intel-row"><span class="k">Source</span><span class="v">data.regionreunion.com</span></div>
+          <div class="intel-row"><span class="k">Format</span><span class="v bleu">JSON</span></div>
+          <div class="intel-row"><span class="k">MAJ</span><span class="v vert" id="sysUpdate">—</span></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<script>
+const DATA = window.MONITOR_DATA;
+const CHARTS = {};
+const DASH = () => document.getElementById('dashboard');
+const ICONS = {overview:'📊', evolution:'📈', repartition:'🥧', top:'🏆', tco:'🏛️', fiches:'📋', alertes:'🚨'};
+const LABELS = {overview:"Vue d'ensemble", evolution:'Évolution 2022→2026', repartition:'Répartition 2025', top:'Top associations', tco:'Subventions TCO', fiches:'Fiches associations', alertes:'Alertes'};
+
+function renderKPI(c, opts){
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = '<h3>' + opts.label + (opts.source ? '<span class="source">' + opts.source + '</span>' : '') + '</h3><div class="kpi">' + opts.value + '</div>';
+  c.appendChild(card);
+}
+
+function renderCard(c, title, html, source){
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = '<h3>' + title + (source ? '<span class="source">' + source + '</span>' : '') + '</h3>' + html;
+  c.appendChild(card);
+  return card;
+}
+
+function renderChart(c, title, type, data, source){
+  const card = renderCard(c, title, '<canvas></canvas>', source);
+  const canvas = card.querySelector('canvas');
+  if (CHARTS[title]) CHARTS[title].destroy();
+  CHARTS[title] = new Chart(canvas, {
+    type: type, data: data,
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      animation: { duration: 400 },
+      plugins: { legend: { position: 'bottom',
+        labels: { color: '#3d5a80', font: { size: 11, family: 'JetBrains Mono' } } } },
+      scales: (type === 'doughnut' || type === 'pie') ? {} : {
+        x: { ticks: { color: '#3d5a80' }, grid: { color: '#eef2f7' } },
+        y: { ticks: { color: '#3d5a80' }, grid: { color: '#eef2f7' } }
+      }
+    }
+  });
+}
+
+function renderTable(c, title, rows, cols, source){
+  let html = '<div class="table-wrap"><table class="data-table"><thead><tr>';
+  cols.forEach(function(col){ html += '<th>' + col.label + '</th>'; });
+  html += '</tr></thead><tbody>';
+  rows.forEach(function(r){
+    html += '<tr>';
+    cols.forEach(function(col){ html += '<td>' + (r[col.key] || '—') + '</td>'; });
+    html += '</tr>';
+  });
+  html += '</tbody></table></div>';
+  renderCard(c, title, html, source);
+}
+
+function moduleOverview(c){
+  c.innerHTML = '';
+  const total22 = DATA.s2022.reduce(function(s,r){return s+(r.montant||0);},0);
+  const total23 = DATA.s2023.reduce(function(s,r){return s+(r.montant||0);},0);
+  const total24 = DATA.s2024.reduce(function(s,r){return s+(r.montant||0);},0);
+
+  const kpis = document.createElement('div');
+  kpis.className = 'kpis';
+  kpis.innerHTML =
+    '<div class="kpi-card"><div class="v">' + total22.toLocaleString('fr-FR') + ' €</div><div class="l">2022 · ' + DATA.s2022.length + ' assos</div></div>' +
+    '<div class="kpi-card"><div class="v">' + total23.toLocaleString('fr-FR') + ' €</div><div class="l">2023 · ' + DATA.s2023.length + ' assos</div></div>' +
+    '<div class="kpi-card"><div class="v">' + total24.toLocaleString('fr-FR') + ' €</div><div class="l">2024 · ' + DATA.s2024.length + ' assos</div></div>' +
+    '<div class="kpi-card rouge"><div class="v">' + DATA.totals["2025"].total.toLocaleString('fr-FR') + ' €</div><div class="l">2025 · ' + DATA.totals["2025"].nb_associations + ' assos</div></div>' +
+    '<div class="kpi-card rouge"><div class="v">' + DATA.totals["2026"].total.toLocaleString('fr-FR') + ' €</div><div class="l">2026 · ' + DATA.totals["2026"].nb_associations + ' assos</div><div class="evo up">+13% vs 2024</div></div>';
+  c.appendChild(kpis);
+
+  renderChart(c, 'Évolution 2022 → 2026', 'line', {
+    labels: ['2022','2023','2024','2025','2026'],
+    datasets: [{
+      label: 'Total subventions (€)',
+      data: [total22, total23, total24, DATA.totals["2025"].total, DATA.totals["2026"].total],
+      borderColor: '#0033a0', backgroundColor: 'rgba(0,51,160,0.1)',
+      fill: true, tension: 0.3, pointRadius: 6,
+      pointBackgroundColor: ['#0033a0','#0033a0','#0033a0','#c8102e','#c8102e']
+    }]
+  }, 'Région + délibérations');
+
+  renderChart(c, "Nombre d'associations par année", 'bar', {
+    labels: ['2022','2023','2024','2025','2026'],
+    datasets: [{
+      label: 'Associations',
+      data: [DATA.s2022.length, DATA.s2023.length, DATA.s2024.length,
+             DATA.totals["2025"].nb_associations, DATA.totals["2026"].nb_associations],
+      backgroundColor: ['#0033a0','#0033a0','#0033a0','#c8102e','#c8102e']
+    }]
+  }, 'Région + délibérations');
+}
+
+function moduleEvolution(c){
+  c.innerHTML = '';
+  const total22 = DATA.s2022.reduce(function(s,r){return s+(r.montant||0);},0);
+  const total23 = DATA.s2023.reduce(function(s,r){return s+(r.montant||0);},0);
+  const total24 = DATA.s2024.reduce(function(s,r){return s+(r.montant||0);},0);
+
+  renderKPI(c, { value: total22.toLocaleString('fr-FR') + ' €', label: '2022', source: '88 assos' });
+  renderKPI(c, { value: total23.toLocaleString('fr-FR') + ' €', label: '2023', source: '128 assos' });
+  renderKPI(c, { value: total24.toLocaleString('fr-FR') + ' €', label: '2024', source: '106 assos' });
+
+  renderChart(c, 'Évolution détaillée', 'line', {
+    labels: ['2022','2023','2024','2025','2026'],
+    datasets: [{
+      label: 'Total (€)',
+      data: [total22, total23, total24, DATA.totals["2025"].total, DATA.totals["2026"].total],
+      borderColor: '#0033a0', backgroundColor: 'rgba(0,51,160,0.15)',
+      fill: true, tension: 0.3, pointRadius: 7,
+      pointBackgroundColor: ['#0033a0','#0033a0','#0033a0','#c8102e','#c8102e']
+    }]
+  }, 'synthèse');
+}
+
+function moduleRepartition(c){
+  c.innerHTML = '';
+  const rep = DATA.totals["2025"].repartition;
+  renderKPI(c, { value: DATA.totals["2025"].total.toLocaleString('fr-FR') + ' €', label: 'Total 2025', source: '99 assos' });
+  renderKPI(c, { value: DATA.totals["2025"].nb_demandes, label: 'Demandes reçues', source: '2025' });
+  renderKPI(c, { value: '84%', label: 'Taux satisfaction', source: '99/118' });
+
+  renderChart(c, 'Répartition thématique 2025', 'doughnut', {
+    labels: Object.keys(rep),
+    datasets: [{
+      data: Object.values(rep),
+      backgroundColor: ['#0033a0','#0055cc','#c8102e','#e63946','#d4af37','#3d5a80']
+    }]
+  }, 'Délibération 03/04/2025');
+
+  renderTable(c, 'Détail par thématique', Object.keys(rep).map(function(k){
+    return { thematique: k, nb: rep[k], pct: Math.round(rep[k]/99*100) + '%' };
+  }), [
+    { key: 'thematique', label: 'Thématique' },
+    { key: 'nb', label: 'Nb associations' },
+    { key: 'pct', label: '% du total' }
+  ], '2025');
+}
+
+function moduleTop(c){
+  c.innerHTML = '';
+  const sorted = DATA.s2024.slice().sort(function(a,b){return b.montant - a.montant;}).slice(0, 15);
+  renderKPI(c, { value: DATA.s2024.length, label: 'Associations 2024', source: 'Région' });
+
+  renderChart(c, 'Top 15 subventions 2024', 'bar', {
+    labels: sorted.map(function(a){return a.nom.substring(0,30);}),
+    datasets: [{ label: 'Montant (€)', data: sorted.map(function(a){return a.montant;}), backgroundColor: '#0033a0' }]
+  }, 'Région');
+
+  renderTable(c, 'Détail top 15', sorted.map(function(a,i){
+    return { rang: i+1, nom: a.nom, montant: (a.montant||0).toLocaleString('fr-FR') + ' €' };
+  }), [
+    { key: 'rang', label: '#' },
+    { key: 'nom', label: 'Association' },
+    { key: 'montant', label: 'Montant' }
+  ], '2024');
+}
+
+function moduleTco(c){
+  c.innerHTML = '';
+  const tco = DATA.tco;
+  renderKPI(c, { value: (tco.pulsation.subvention_tco_max||0).toLocaleString('fr-FR') + ' €', label: 'Pulsation TCO max', source: 'TCO' });
+  renderKPI(c, { value: (tco.tcos.subvention_2026||0).toLocaleString('fr-FR') + ' €', label: "T'COS 2026", source: 'TCO' });
+
+  renderCard(c, '🌿 Pulsation Patrimoine',
+    '<div class="intel-row"><span class="k">TCO max</span><span class="v bleu">' + tco.pulsation.subvention_tco_max.toLocaleString('fr-FR') + ' €</span></div>' +
+    '<div class="intel-row"><span class="k">Commune 2025</span><span class="v">' + tco.pulsation.subvention_commune_2025.toLocaleString('fr-FR') + ' €</span></div>' +
+    '<div class="intel-row"><span class="k">Demande suppl.</span><span class="v rouge">' + tco.pulsation.demande_commune_supplementaire.toLocaleString('fr-FR') + ' €</span></div>',
+    'TCO 2025');
+
+  renderTable(c, '🎭 Culture 2026', tco.culture.map(function(x){
+    return { festival: x.festival, demande: x.demande.toLocaleString('fr-FR') + ' €' };
+  }), [
+    { key: 'festival', label: 'Festival' },
+    { key: 'demande', label: 'Demande' }
+  ], 'TCO 2026');
+}
+
+function moduleFiches(c){
+  c.innerHTML = '';
+  const grid = document.createElement('div');
+  grid.className = 'kpis';
+  let html = '';
+  Object.values(DATA.fiches).forEach(function(f){
+    const m = f.montant_2024 || f.montant_commune_2025 || f.montant_tco_max || 0;
+    html += '<div class="kpi-card"><div class="v">' + m.toLocaleString('fr-FR') + ' €</div><div class="l">' + f.nom + '</div><div class="evo">' + (f.categorie || '') + '</div></div>';
+  });
+  grid.innerHTML = html;
+  c.appendChild(grid);
+}
+
+function moduleAlertes(c){
+  c.innerHTML = '';
+  renderCard(c, '🚨 Alertes',
+    '<div class="alert-item"><span class="ico">⚠️</span><div class="txt"><div class="title">Dataset 2025 non publié</div><div class="detail">Seuls les totaux sont disponibles (délibération)</div></div></div>' +
+    '<div class="alert-item warning"><span class="ico">📋</span><div class="txt"><div class="title">Détail 2026 indisponible</div><div class="detail">Communiqué de presse uniquement</div></div></div>' +
+    '<div class="alert-item info"><span class="ico">ℹ️</span><div class="txt"><div class="title">Source data.gouv.fr</div><div class="detail">2022-2023 disponibles</div></div></div>',
+    'diagnostic');
+}
+
+const MODULES = {overview:moduleOverview, evolution:moduleEvolution, repartition:moduleRepartition, top:moduleTop, tco:moduleTco, fiches:moduleFiches, alertes:moduleAlertes};
+
+function buildNav(){
+  const list = document.getElementById('sbList');
+  list.innerHTML = '';
+  Object.keys(MODULES).forEach(function(key){
+    const item = document.createElement('div');
+    item.className = 'sb-item' + (key === 'overview' ? ' active' : '');
+    item.dataset.module = key;
+    item.innerHTML = '<div class="sb-item-h"><span class="sb-item-icon">' + ICONS[key] + '</span><span class="sb-item-name">' + LABELS[key] + '</span></div>';
+    item.addEventListener('click', function(){ switchModule(key); });
+    list.appendChild(item);
+  });
+  document.querySelectorAll('.tab').forEach(function(t){
+    t.addEventListener('click', function(){ switchModule(t.dataset.tab); });
+  });
+}
+
+function switchModule(key){
+  document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.tab === key); });
+  document.querySelectorAll('.sb-item').forEach(function(el){ el.classList.toggle('active', el.dataset.module === key); });
+  document.getElementById('activeIcon').textContent = ICONS[key];
+  document.getElementById('activeName').textContent = LABELS[key];
+  document.getElementById('ivName').textContent = LABELS[key];
+
+  Object.values(CHARTS).forEach(function(c){ try { c.destroy(); } catch(e){} });
+  Object.keys(CHARTS).forEach(function(k){ delete CHARTS[k]; });
+
+  const dash = DASH();
+  dash.innerHTML = '<div class="loader"><div class="spin"></div>Chargement…</div>';
+  MODULES[key](dash);
+
+  const t = new Date().toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
+  document.getElementById('tbUpdate').textContent = t;
+  document.getElementById('sysUpdate').textContent = t;
+}
+
+function init(){
+  buildNav();
+  document.getElementById('rsSynth').innerHTML =
+    '<div class="intel-row"><span class="k">2022</span><span class="v bleu">801 350 €</span></div>' +
+    '<div class="intel-row"><span class="k">2023</span><span class="v bleu">929 179 €</span></div>' +
+    '<div class="intel-row"><span class="k">2024</span><span class="v bleu">841 750 €</span></div>' +
+    '<div class="intel-row"><span class="k">2025</span><span class="v rouge">942 100 €</span></div>' +
+    '<div class="intel-row"><span class="k">2026</span><span class="v rouge">1 017 600 €</span></div>';
+  switchModule('overview');
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

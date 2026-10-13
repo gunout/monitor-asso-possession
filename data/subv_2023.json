@@ -1,0 +1,642 @@
+[
+  {
+    "nom": "ACADEMIE MULTI BOXE",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CULTUREL ET HISTORIQUE PATRIMOINE DE MAFATE",
+    "montant": 1250.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SOURIRE METISSE",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "FE BOUGE HALTE-LA",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ACADEMIE POUR L'EGALITE DES CHANCES",
+    "montant": 14000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "AFC ST THERESE",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ARPS",
+    "montant": 800.0,
+    "date": "2023-03-28"
+  },
+  {
+    "nom": "ARTKREA",
+    "montant": 900.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB BOULISTE JACQUES DUCLOS",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB D'ATHLETISME DE LA POSSESSION",
+    "montant": 20000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB PAYANKE",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "DE FIL EN AIGUILLE",
+    "montant": 900.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "GECKOS",
+    "montant": 11000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "PICKS BASKET LA POSSESSION",
+    "montant": 23000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "RADIO JUJUBE NEO FM",
+    "montant": 5000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "VELO CLUB DE L'OUEST",
+    "montant": 5000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "BMX RACE POSSESSION",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SIRIUS",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ECOLE DE DANSE UN TEMPS POUR DANSER",
+    "montant": 1400.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "FOOTBAL CLUB HALTE-LA",
+    "montant": 35000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "GYMNASTIQUE CLUB DE LA POSSESSION",
+    "montant": 22000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LES ATELIERS DE L'ORCHESTRE TAMARIN",
+    "montant": 4000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "PREST'AGES",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "SAF OI",
+    "montant": 800.0,
+    "date": "2023-03-31"
+  },
+  {
+    "nom": "SEOR",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "TE IMIRA",
+    "montant": 4000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "TIC TAC FAMIMILY",
+    "montant": 14000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "VIENS KOZ EK NOUS",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB JOIE ET AMITIE",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB LES CYPRES",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB PONGISTE POSSESSIONNAIS",
+    "montant": 14000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "COMPAGNIE KENJI",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LA BOULE JOYEUSE",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "MAFATE ENSEMBLE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ACADEMY MULTI SPORT ET LOISIRS",
+    "montant": 4000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ACCES",
+    "montant": 47000.0,
+    "date": "2023-03-17"
+  },
+  {
+    "nom": "AMICALE PAUL ELUARD",
+    "montant": 500.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "AN GREN KOULER",
+    "montant": 30000.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "AVE2M",
+    "montant": 141929.0,
+    "date": "2023-09-15"
+  },
+  {
+    "nom": "CERCLE D'ESCRIME DE L'OUEST",
+    "montant": 1500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB LES FLAMBOYANTS",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION LIAISON",
+    "montant": 2500.0,
+    "date": "2023-03-23"
+  },
+  {
+    "nom": "COMITE D'ACTION SOCIALE",
+    "montant": 32000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB DES ESTRILIDES DE LA REUNION",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "GROUPE GADIAMB",
+    "montant": 450.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "DANY GROUP",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LA CASE DU VIVRE ENSEMBLE",
+    "montant": 1400.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LES ANCIENS COMBATTANTS",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "NY VALIHA",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "SAKURA",
+    "montant": 500.0,
+    "date": "2023-03-21"
+  },
+  {
+    "nom": "PRO MUSICA",
+    "montant": 400.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "RUGBY CLUB PORTOIS",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ACADEMIE FOOTBALL CLUB POSSESSION",
+    "montant": 35000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "AFSEP",
+    "montant": 300.0,
+    "date": "2023-03-30"
+  },
+  {
+    "nom": "ASSOCIATION DES PARENTS D'ELEVES DE L'ECOLE CATHOLIQUE SAINT CHARLES",
+    "montant": 500.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "ASSOCIATION POUR DEVELOPPEMENT DE LA COMMUNICATION DE MAFATE",
+    "montant": 950.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SOLIDAIRE ST LAURENT",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ATHLETIC CLUB POSSESSION",
+    "montant": 4000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB MYOSOTIS",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "COMPAGNON JE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "FETISOI KARATE",
+    "montant": 1500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "France ALZEHEIMER REUNION",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "HANDI RESILIENCE SOLIDARITE",
+    "montant": 950.0,
+    "date": "2023-03-22"
+  },
+  {
+    "nom": "LES ATELIERS PASS'COMPETENCES",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "MAM TITOULIT",
+    "montant": 750.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "MONTAGNE REUNION",
+    "montant": 5000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "OMCTL",
+    "montant": 140000.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "RPOSIS",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "USEP DEPARTEMENTAL",
+    "montant": 12000.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "ALMA",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ARGIL RETRO",
+    "montant": 450.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB LES ROSES",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB VIOLETTES",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CGVST",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ECOL'O DE VIE",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB SPORTIF D'EDUCATION CANIN",
+    "montant": 800.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "KABAR HOLISTIQUE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "GARD ESPOIR",
+    "montant": 500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LES PITCHOIUNETS",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ORIAPA",
+    "montant": 1600.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "PAPANG HALTEROPHILIE",
+    "montant": 800.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "TEMPO DANSE",
+    "montant": 11500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "WEB CUP",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "TENNIS CLUB POSSESSION",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION JIU JITSU BRESILIEN NOIRE",
+    "montant": 1500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION ARISTE BOLON",
+    "montant": 18000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SAKISOIGNE",
+    "montant": 4000.0,
+    "date": "—"
+  },
+  {
+    "nom": "BOXING CLUB DOS D'ANE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SPORTIVE DU COLLEGE TEXEIRA DA MOTTA",
+    "montant": 900.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "ASSOCIATION SPORTIVE ET CULTURELLE DE LA POSSESSION",
+    "montant": 35000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ATELIER COUTURE 974",
+    "montant": 650.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "JB4",
+    "montant": 6500.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "JOLLY ROGER",
+    "montant": 400.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LES PETITS DEBROUILLARDS",
+    "montant": 7000.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "ASSOCIATION CŒUR DE FEMME",
+    "montant": 8000.0,
+    "date": "2023-03-20"
+  },
+  {
+    "nom": "ANKRAGE",
+    "montant": 12000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "BADMINTON CLUB POSSESSION",
+    "montant": 4500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB DES NAGEURS DE LA POSSESSION",
+    "montant": 22000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "CLUB LES PLUIES D'OR",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "HAND BALL CLUB POSSESSION",
+    "montant": 32000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LES COMPERES CREOLES",
+    "montant": 4000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "L'ESSENCE DU LIEN",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LOFIS DE LA LANG KREOL",
+    "montant": 900.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "LUDO KADOK",
+    "montant": 3500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "MISSION SOLEIL REUNION",
+    "montant": 1400.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "VETERANS FOOTBALL CLUB ST THERESE",
+    "montant": 2500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "VIVRE AVEC LE SAF",
+    "montant": 1500.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "WU WEI ACADEMIE",
+    "montant": 750.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "MODERNE PULSE DANSE COMPANY",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "SAUDADE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "TU ES MON AUTRE",
+    "montant": 5000.0,
+    "date": "2023-03-18"
+  },
+  {
+    "nom": "ADUNA",
+    "montant": 1800.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ARAJUFA",
+    "montant": 1000.0,
+    "date": "2023-03-29"
+  },
+  {
+    "nom": "ASSOCIATION JEMS CŒUR UNIS",
+    "montant": 500.0,
+    "date": "2023-03-26"
+  },
+  {
+    "nom": "ASSOCIATION MADARASSATI RAYANIA",
+    "montant": 950.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SPORTIVE ET CULTURELLE OUEST FUSION",
+    "montant": 3000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ASSOCIATION SPORTIVE JEAN ALBANY",
+    "montant": 350.0,
+    "date": "2023-03-06"
+  },
+  {
+    "nom": "CROIX ROUGE FRANCAISE",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "ECOLE BUDO REUNION AIKIDO POSSESSION",
+    "montant": 400.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "HOCKEY CLUB POSSESSION",
+    "montant": 5000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "KAZ JOIE DE VIVRE",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "KER SOLIDAIRE",
+    "montant": 1000.0,
+    "date": "2023-03-24"
+  },
+  {
+    "nom": "KOUD POUS'",
+    "montant": 6000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "OPTIMISER KARATE",
+    "montant": 2000.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "PAIRE 2 CŒURS",
+    "montant": 950.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "THEATRE VOLLARD",
+    "montant": 900.0,
+    "date": "2023-03-03"
+  },
+  {
+    "nom": "UN CŒUR C'EST UN CŒUR",
+    "montant": 2000.0,
+    "date": "2023-03-25"
+  },
+  {
+    "nom": "YLANG YLANG",
+    "montant": 1000.0,
+    "date": "2023-03-03"
+  }
+]

@@ -1,0 +1,1377 @@
+[
+  {
+    "ts": "2026-10-13 13:54:36",
+    "level": "info",
+    "msg": "🔄 Démarrage vérification 2026-10-13 13:54:36"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 (Région) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:38",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "new",
+    "msg": "🆕 Délibérations La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-06-juin-2026"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-18-juillet-2026"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-25-avril-2026"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2024"
+  },
+  {
+    "ts": "2026-10-13 13:54:40",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2025"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "new",
+    "msg": "🆕 Catalogue Région (62 datasets) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 13:54:46",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "new",
+    "msg": "🆕 Budgets La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 13:54:48",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 13:54:49",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 13:54:50",
+    "level": "new",
+    "msg": "🆕 Dataset subventions data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:50",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:50",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:50",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:50",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "new",
+    "msg": "🆕 Organisation data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "   → Décision modificative 2022 de la Ville de la Possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "   → Budget primitif 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "   → Budget supplémentaire 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "   → Budget primitif 2023 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "   → Base Adresse Locale de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "📤 Export CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135452.csv"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "📤 Export CSV délib : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135452.csv"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135452.json"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "✔️ Vérification terminée en 16s"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "🚀 Daemon démarré (intervalle : 3600s)"
+  },
+  {
+    "ts": "2026-10-13 13:54:52",
+    "level": "info",
+    "msg": "🔄 Démarrage vérification 2026-10-13 13:54:52"
+  },
+  {
+    "ts": "2026-10-13 13:54:53",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 (Région) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:54:55",
+    "level": "new",
+    "msg": "🆕 Délibérations La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:55:01",
+    "level": "new",
+    "msg": "🆕 Catalogue Région (62 datasets) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:55:03",
+    "level": "new",
+    "msg": "🆕 Budgets La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:55:04",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 13:55:05",
+    "level": "new",
+    "msg": "🆕 Dataset subventions data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:55:07",
+    "level": "new",
+    "msg": "🆕 Organisation data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:55:07",
+    "level": "info",
+    "msg": "📤 Export CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135507.csv"
+  },
+  {
+    "ts": "2026-10-13 13:55:07",
+    "level": "info",
+    "msg": "📤 Export CSV délib : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135507.csv"
+  },
+  {
+    "ts": "2026-10-13 13:55:07",
+    "level": "info",
+    "msg": "📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135507.json"
+  },
+  {
+    "ts": "2026-10-13 13:55:07",
+    "level": "info",
+    "msg": "✔️ Vérification terminée en 15s"
+  },
+  {
+    "ts": "2026-10-13 13:55:08",
+    "level": "info",
+    "msg": "💤 Prochaine vérification dans 3600s"
+  },
+  {
+    "ts": "2026-10-13 13:58:21",
+    "level": "info",
+    "msg": "🔄 Démarrage vérification 2026-10-13 13:58:21"
+  },
+  {
+    "ts": "2026-10-13 13:58:27",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 (Région) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:27",
+    "level": "info",
+    "msg": "   → ACCES"
+  },
+  {
+    "ts": "2026-10-13 13:58:27",
+    "level": "info",
+    "msg": "   → ADUNA OI"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "   → AFC Ste Thérése"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "   → APEJJ"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "   → ARAJUFA"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "🏆 Top 10 subventions 2024 :"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ OMCTL : 140000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ ACCES : 50000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Academie de football de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Association football club Halte là : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Association sportive et culturelle de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Handball club Possession : 35000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Comité d'action sociale : 32000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ An gren kouler : 30000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Picks basket : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "→ Gymnastique club Possession : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:58:28",
+    "level": "info",
+    "msg": "💰 Total : 809950 € répartis sur 100 associations"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "new",
+    "msg": "🆕 Délibérations La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-06-juin-2026"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-18-juillet-2026"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-25-avril-2026"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2024"
+  },
+  {
+    "ts": "2026-10-13 13:58:30",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2025"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "new",
+    "msg": "🆕 Catalogue Région : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 13:58:37",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "new",
+    "msg": "🆕 Budgets La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 13:58:38",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 13:58:39",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 13:58:40",
+    "level": "new",
+    "msg": "🆕 Dataset data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:40",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:58:40",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:58:40",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:58:40",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "new",
+    "msg": "🆕 Organisation data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "   → Décision modificative 2022 de la Ville de la Possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "   → Budget primitif 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "   → Budget supplémentaire 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "   → Budget primitif 2023 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "   → Base Adresse Locale de La Possession"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135842.csv"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135842.csv"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135842.json"
+  },
+  {
+    "ts": "2026-10-13 13:58:42",
+    "level": "info",
+    "msg": "✔️ Vérification terminée en 21s"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "🏆 Top 20 subventions 2024 :"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ OMCTL : 140000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ ACCES : 50000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Academie de football de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Association football club Halte là : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Association sportive et culturelle de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Handball club Possession : 35000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Comité d'action sociale : 32000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ An gren kouler : 30000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Picks basket : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Gymnastique club Possession : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Club d'athletisme de la Possession : 20000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Association Ariste Bolon : 20000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Tempo danse : 20000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Club des nageurs de la Possession : 15000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Academie pour l'égalité de chances : 15000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Club aquatique Possession : 15000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Club pongiste Possessionnais : 14000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Tic tac family : 14000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ USEP departementale : 12000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "→ Athetic club Possession : 10000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:23",
+    "level": "info",
+    "msg": "💰 Total : 809950 € répartis sur 100 associations"
+  },
+  {
+    "ts": "2026-10-13 13:59:24",
+    "level": "info",
+    "msg": "🔄 Démarrage vérification 2026-10-13 13:59:24"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 (Région) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "🏆 Top 10 subventions 2024 :"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ OMCTL : 140000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ ACCES : 50000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Academie de football de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Association football club Halte là : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Association sportive et culturelle de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Handball club Possession : 35000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Comité d'action sociale : 32000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ An gren kouler : 30000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Picks basket : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "→ Gymnastique club Possession : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:25",
+    "level": "info",
+    "msg": "💰 Total : 809950 € répartis sur 100 associations"
+  },
+  {
+    "ts": "2026-10-13 13:59:27",
+    "level": "new",
+    "msg": "🆕 Délibérations La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:32",
+    "level": "new",
+    "msg": "🆕 Catalogue Région : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:33",
+    "level": "new",
+    "msg": "🆕 Budgets La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:34",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 13:59:35",
+    "level": "new",
+    "msg": "🆕 Dataset data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "new",
+    "msg": "🆕 Organisation data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135937.csv"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135937.csv"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135937.json"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "✔️ Vérification terminée en 13s"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "🚀 Daemon démarré (intervalle : 3600s)"
+  },
+  {
+    "ts": "2026-10-13 13:59:37",
+    "level": "info",
+    "msg": "🔄 Démarrage vérification 2026-10-13 13:59:37"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 (Région) : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "🏆 Top 10 subventions 2024 :"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ OMCTL : 140000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ ACCES : 50000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Academie de football de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Association football club Halte là : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Association sportive et culturelle de la Possession : 38000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Handball club Possession : 35000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Comité d'action sociale : 32000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ An gren kouler : 30000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Picks basket : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "→ Gymnastique club Possession : 23000.0 € (subvention)"
+  },
+  {
+    "ts": "2026-10-13 13:59:38",
+    "level": "info",
+    "msg": "💰 Total : 809950 € répartis sur 100 associations"
+  },
+  {
+    "ts": "2026-10-13 13:59:40",
+    "level": "new",
+    "msg": "🆕 Délibérations La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:46",
+    "level": "new",
+    "msg": "🆕 Catalogue Région : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:47",
+    "level": "new",
+    "msg": "🆕 Budgets La Possession : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:48",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 13:59:49",
+    "level": "new",
+    "msg": "🆕 Dataset data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "new",
+    "msg": "🆕 Organisation data.gouv.fr : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "info",
+    "msg": "📤 Export CSV subventions : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135951.csv"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "info",
+    "msg": "📤 Export CSV délibérations : /home/gleaphe/Desktop/Monitor Possession/data/deliberations_20261013_135951.csv"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "info",
+    "msg": "📤 Export JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_135951.json"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "info",
+    "msg": "✔️ Vérification terminée en 14s"
+  },
+  {
+    "ts": "2026-10-13 13:59:51",
+    "level": "info",
+    "msg": "💤 Prochaine vérification dans 3600s"
+  },
+  {
+    "ts": "2026-10-13 14:02:20",
+    "level": "info",
+    "msg": "🔄 Démarrage 2026-10-13 14:02:20"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "new",
+    "msg": "🆕 Subventions 2024 : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "   → ACCES"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "   → ADUNA OI"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "   → AFC Ste Thérése"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "   → APEJJ"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "   → ARAJUFA"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "🏆 Top 10 subventions 2024 :"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ OMCTL : 140000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ ACCES : 50000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Academie de football de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Association football club Halte là : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Association sportive et culturelle de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Handball club Possession : 35000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Comité d'action sociale : 32000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ An gren kouler : 30000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Picks basket : 23000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "→ Gymnastique club Possession : 23000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:02:22",
+    "level": "info",
+    "msg": "💰 Total : 841750 € répartis sur 106 associations"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "new",
+    "msg": "🆕 Délibérations : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-06-juin-2026"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-18-juillet-2026"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-25-avril-2026"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2024"
+  },
+  {
+    "ts": "2026-10-13 14:02:24",
+    "level": "info",
+    "msg": "   → deliberation-de-la-ville-de-la-possession-mai-2025"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "new",
+    "msg": "🆕 Catalogue Région : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 14:02:30",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 14:02:31",
+    "level": "new",
+    "msg": "🆕 Budgets : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:31",
+    "level": "info",
+    "msg": "   → budget-primitif-2024-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:31",
+    "level": "info",
+    "msg": "   → budget-primitif-2025-de-la-ville-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:32",
+    "level": "info",
+    "msg": "   → budget-primitif-2026-de-la-possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:32",
+    "level": "info",
+    "msg": "   → budget-primitif-2022"
+  },
+  {
+    "ts": "2026-10-13 14:02:32",
+    "level": "info",
+    "msg": "   → budget-primitif-2023"
+  },
+  {
+    "ts": "2026-10-13 14:02:32",
+    "level": "info",
+    "msg": "✅ Marchés publics : inchangé"
+  },
+  {
+    "ts": "2026-10-13 14:02:33",
+    "level": "new",
+    "msg": "🆕 data.gouv dataset : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:34",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 14:02:34",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 14:02:34",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 14:02:34",
+    "level": "info",
+    "msg": "   → —"
+  },
+  {
+    "ts": "2026-10-13 14:02:35",
+    "level": "new",
+    "msg": "🆕 data.gouv org : changement détecté"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "   → Décision modificative 2022 de la Ville de la Possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "   → Budget primitif 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "   → Budget supplémentaire 2022 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "   → Budget primitif 2023 de La Possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "   → Base Adresse Locale de La Possession"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "📤 CSV : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_140236.csv"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "📤 JSON : /home/gleaphe/Desktop/Monitor Possession/data/export_20261013_140236.json"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "📄 Génération du rapport HTML…"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "✅ Rapport : /home/gleaphe/Desktop/Monitor Possession/rapport.html"
+  },
+  {
+    "ts": "2026-10-13 14:02:36",
+    "level": "info",
+    "msg": "✔️ Terminé en 16s"
+  },
+  {
+    "ts": "2026-10-13 14:06:25",
+    "level": "info",
+    "msg": "🔄 Vérification 2026-10-13 14:06:25"
+  },
+  {
+    "ts": "2026-10-13 14:06:28",
+    "level": "info",
+    "msg": "📊 Comparaison 2024 vs 2025"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "⚠️ Dataset 2025 pas encore disponible"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "info",
+    "msg": "🌐 Génération du dashboard web…"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "info",
+    "msg": "✅ Dashboard : /home/gleaphe/Desktop/Monitor Possession/dashboard.html"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "info",
+    "msg": "📄 Rapport : /home/gleaphe/Desktop/Monitor Possession/rapport.html"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 Academie de football de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 Comité d'action sociale : 32000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 OMCTL : 140000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 Association football club Halte là : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 Handball club Possession : 35000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 Association sportive et culturelle de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "warn",
+    "msg": "🚨 ACCES : 50000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:06:31",
+    "level": "info",
+    "msg": "✔️ Terminé"
+  },
+  {
+    "ts": "2026-10-13 14:10:11",
+    "level": "info",
+    "msg": "🔄 Vérification 2026-10-13 14:10:11"
+  },
+  {
+    "ts": "2026-10-13 14:10:11",
+    "level": "info",
+    "msg": "📊 Comparaison 2022 → 2023 → 2024"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "💰 Totaux : 2022 = \"25 000.002 800.001 100.0012 000.002 300.0029 000.001 800.006502 000.004 700.009501 800.003 000.002 800.0011 000.0022 000.0020 000.0014 000.003 250.001 000.004502 300.009509509509503 000.002 300.008509004 200.0014 000.009001 500.009005 000.006 500.005004506 000.009505002 000.001 400.004509501 800.00170 000.002 300.007504502 300.001 000.0024 000.003 000.003 700.001 800.0013 000.005 000.004502 800.0022 000.001 800.003759001 100.009504757502 300.001 800.004 200.006506509005 600.002 300.0020 000.0028 000.0022 000.0090090030 000.00140 000.002 300.0046 500.009 300.001 400.00\" € (88 assos)  |  2023 = 929179 € (128 assos)  |  2024 = 841750 € (106 assos)"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "new",
+    "msg": "🆕 Nouvelles associations en 2024 : 98"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → ADUNA OI"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → AFC Ste Thérése"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → APEJJ"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → ARIV"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → ARPSH"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → Academie de football de la Possession"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → Academie multi boxe"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → Academie pour l'égalité de chances"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → Academy multi sport et loisirs"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "   → An gren kouler"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "warn",
+    "msg": "⚠️ Absentes en 2024 : 120"
+  },
+  {
+    "ts": "2026-10-13 14:10:21",
+    "level": "info",
+    "msg": "🌐 Génération du dashboard web (3 années)…"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "info",
+    "msg": "✅ Dashboard : /home/gleaphe/Desktop/Monitor Possession/dashboard.html"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "info",
+    "msg": "📄 Rapport : /home/gleaphe/Desktop/Monitor Possession/rapport.html"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 Academie de football de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 Comité d'action sociale : 32000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 OMCTL : 140000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 Association football club Halte là : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 Handball club Possession : 35000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 Association sportive et culturelle de la Possession : 38000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "warn",
+    "msg": "🚨 ACCES : 50000.0 €"
+  },
+  {
+    "ts": "2026-10-13 14:10:22",
+    "level": "info",
+    "msg": "✔️ Terminé"
+  },
+  {
+    "ts": "2026-10-13 14:13:51",
+    "level": "info",
+    "msg": "📄 Extraction des subventions depuis les délibérations PDF…"
+  }
+]

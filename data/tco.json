@@ -1,0 +1,15 @@
+{
+  "pulsation": {
+    "nom": "Pulsation Patrimoine",
+    "subvention_tco_max": 30000,
+    "subvention_commune_2025": 6000,
+    "demande_commune_supplementaire": 24000,
+    "objet": "Valorisation patrimoines naturels, lutte antivectorielle"
+  },
+  "culture": [
+    {"festival":"OPUS POCUS","demande":35000},
+    {"festival":"Titan Circle Vibes","demande":8000},
+    {"festival":"Jazz Dann Port","demande":100000}
+  ],
+  "tcos": {"nom":"T'COS","subvention_2026":45000,"demande":53100}
+}

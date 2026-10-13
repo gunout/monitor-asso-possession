@@ -1,0 +1,8 @@
+{
+  "omctl": {"nom":"OMCTL","montant_2024":140000,"categorie":"Sport/Social"},
+  "acces": {"nom":"ACCES","montant_2024":50000,"categorie":"Social"},
+  "football": {"nom":"Académie football","montant_2024":38000,"categorie":"Sport"},
+  "handball": {"nom":"Handball club","montant_2024":35000,"categorie":"Sport"},
+  "cas": {"nom":"Comité action sociale","montant_2024":32000,"categorie":"Social"},
+  "pulsation": {"nom":"Pulsation Patrimoine","montant_commune_2025":6000,"montant_tco_max":30000,"categorie":"Environnement"}
+}
